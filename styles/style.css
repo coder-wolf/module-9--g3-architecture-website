@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Global Styles */
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 165px;
+}
+section,
+header,
+footer {
+  padding: 0 150px;
+}
+
+.primary-btn {
+  background-color: #ff900e;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 18px;
+  /* max-width: 130px; */
+}
+
+img {
+  width: 100%;
+}
+
+/* Header */
+.logo {
+  font-size: 33px;
+}
+
+header {
+  background-color: #ff900e1a;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 13.5px;
+}
+
+/* hero section */
+.hero {
+  background-color: #ff900e1a;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.banner-content {
+  max-width: 648px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 48px;
+  margin-top: 0;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #727272;
+}
+
+.hero-image {
+  margin: 18px 0;
+}
+
+/* features section */
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 63px;
+  padding-bottom: 63px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  row-gap: 18px;
+}
+
+.features-content {
+  padding: 54px;
+}
+
+.features-title {
+  font-size: 33px;
+  color: #727272;
+  max-width: 350px;
+}
+
+.text-of-our {
+  color: #131313;
+  font-weight: bold;
+}
+
+.text-features {
+  color: #ff900e;
+  font-weight: bold;
+}
+
+.features-subtitle {
+  max-width: 430px;
+  font-size: 12px;
+  color: #727272;
+  padding: 18px 0;
+}
+
+/* offerings section */
+/* facts section */
+
+/* Footer */
+/* Sponsors section */
+
+.sponsor {
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+}
+
+.sponsor-title {
+  font-size: 33px;
+}
+
+.sponsor-subtitle {
+  max-width: 407px;
+}
+
+.sponsor-images {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 115px; */
+}
+.sponsor-images img {
+  height: 37px;
+  /* width: 100%; */
+  padding: 40px;
+}
+/* Copyright section */
+.copyright {
+  display: flex;
+  height: 75px;
+  background-color: #fff4e7;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: #424242;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 576px) {
+  section,
+  header,
+  footer {
+    padding: 0 20px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    display: none;
+  }
+}
