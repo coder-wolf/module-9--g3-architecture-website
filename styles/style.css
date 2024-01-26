@@ -282,4 +282,8 @@ nav a {
     grid-template-columns: 1fr;
     padding: 63px;
   }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
 }
