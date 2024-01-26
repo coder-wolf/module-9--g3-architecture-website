@@ -164,6 +164,9 @@ nav a {
   align-items: center;
   padding: 30px;
   width: 257px;
+  position: relative;
+  bottom: 50px;
+  left: -50px;
 }
 
 .ten-year-badge h2 {
