@@ -286,4 +286,8 @@ nav a {
   .features {
     grid-template-columns: 1fr;
   }
+
+  .sponsor-img-container {
+    flex-wrap: wrap;
+  }
 }
